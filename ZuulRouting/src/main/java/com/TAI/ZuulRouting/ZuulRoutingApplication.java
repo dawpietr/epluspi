@@ -40,6 +40,6 @@ class getpi {
 
 	@RequestMapping("/getpi")
 	public String getPI() {
-		return "screw you";
+		return "something goes wrong";
 	}
 }
