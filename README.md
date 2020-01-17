@@ -30,8 +30,13 @@ dashboard tam wpisac adres localhost:8081/hystrix.stream
 localhost:8081/hystrix
 
 elk
+kazdy z terminali nalezy uruchomic osobno z folderu glownego projektu
+elasticsearch uruchomienie
+terminal .elasticsearch/bin/elasticsearch
+kibana
+terminal ./kibana/bin/kibana
+logstash
+terminal ./logstash/bin/logstash -f ./logstash/conf/logstash.conf
 
-
-
-niestety aktualnie tylko tyle
+10 serwisow
 
